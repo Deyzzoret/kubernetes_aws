@@ -1,0 +1,124 @@
+{
+    "StackResourceSummaries": [
+        {
+            "LogicalResourceId": "ControlPlaneSecurityGroup",
+            "PhysicalResourceId": "sg-06f7a352439a554ce",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:34.347000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "InternetGateway",
+            "PhysicalResourceId": "igw-0fa7668ffb72f3256",
+            "ResourceType": "AWS::EC2::InternetGateway",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:31.599000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Route",
+            "PhysicalResourceId": "getti-Route-19JZESOVTW368",
+            "ResourceType": "AWS::EC2::Route",
+            "LastUpdatedTimestamp": "2023-06-24T17:51:05.685000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "RouteTable",
+            "PhysicalResourceId": "rtb-0ecbb81d6103cd97e",
+            "ResourceType": "AWS::EC2::RouteTable",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:41.075000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet01",
+            "PhysicalResourceId": "subnet-03c4ce8f6e1d2183b",
+            "ResourceType": "AWS::EC2::Subnet",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:33.697000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet01RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-06efaa8ddcc3132e9",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:44.283000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet02",
+            "PhysicalResourceId": "subnet-03e8a21ba97754bc4",
+            "ResourceType": "AWS::EC2::Subnet",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:33.629000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet02RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-05ac6be059f491da6",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:43.763000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet03",
+            "PhysicalResourceId": "subnet-059a6545787b4f584",
+            "ResourceType": "AWS::EC2::Subnet",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:33.688000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "Subnet03RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-06414e0f09220c694",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:44.153000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "VPC",
+            "PhysicalResourceId": "vpc-0a33ac2f5788badfd",
+            "ResourceType": "AWS::EC2::VPC",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:27.844000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "LogicalResourceId": "VPCGatewayAttachment",
+            "PhysicalResourceId": "getti-VPCGa-A1RONDFBJ8M6",
+            "ResourceType": "AWS::EC2::VPCGatewayAttachment",
+            "LastUpdatedTimestamp": "2023-06-24T17:50:48.588000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
